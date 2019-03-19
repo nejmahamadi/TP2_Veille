@@ -12,12 +12,7 @@
     font-family: 'Montseterrat';
 }
 
-.wp-block-image {
-    
-    
-}
 
-img:hover .wp-block-image{
-    transform: scale(1.5);
-    opacity: 1;
+img:hover {
+    opacity: 0.5;
 }
