@@ -14,7 +14,9 @@
 	<figure class="wp-block-image">
 	 
 
-	<?php 
+	
+		<a href="<?php the_permalink(); ?>">
+		<?php 
 //	the_post_thumbnail(''); 
 
 	$image = get_field('mon_image');
@@ -26,7 +28,9 @@
 	// add_post_meta($post_id, '_thumbnail_id', $attachment_id);
 	
 	?>
-		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+		
+		
+		<?php the_title(); ?></a>
 	</figcaption>
 	</figure>
 </div>
