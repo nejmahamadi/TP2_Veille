@@ -8,4 +8,16 @@
 
 .entry .entry-content a{
     text-decoration:none;
+    font-size: 20px;
+    font-family: 'Montseterrat';
+}
+
+.wp-block-image {
+    
+    
+}
+
+img:hover .wp-block-image{
+    transform: scale(1.5);
+    opacity: 1;
 }

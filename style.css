@@ -785,6 +785,14 @@ body.page .main-navigation {
 
 .entry .entry-content a {
   text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montseterrat';
+}
+
+img:hover .wp-block-image {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 1;
 }
 
 @-webkit-keyframes anim1 {
