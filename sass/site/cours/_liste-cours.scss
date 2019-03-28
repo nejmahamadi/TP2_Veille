@@ -11,19 +11,21 @@
     margin: 2% 2% 0% 15%;
     font-size : 1.5em;
   
-    .session-1 { background-color: #5892705e; color : #fff; }
-    .session-2 { background-color: #d3a1457d; color : #aaa;}
-    .session-3 { background-color: #2f2f9745; color : #fff;}
-    .session-4 { background-color: #83cede8c; color : #fff;}
-    .session-5 { background-color: #da869f; color : #fff;}
+    .session-1 { background-color: #269a56; color : #fff; }
+    .session-2 { background-color: #fbc664; color : #aaa;}
+    .session-3 { background-color: #5858c5; color : #fff;}
+    .session-4 { background-color: #57bad0; color : #fff;}
+    .session-5 { background-color: #c7496f; color : #fff;}
     .session-6 { background-color: #251b04; color : #fff;}
-    h3,h4 { padding:5px;}
+    h3,h4 { padding:5px; color:black;}
+    
 
     @include media(mobile){
 
         grid-template-columns: repeat(2,1fr);
         grid-gap: 10px;
         font-size : 1.3em;
+        
         
     }
 
@@ -37,8 +39,22 @@
     @include media(desktop) {
             grid-template-columns: repeat(4, 1fr);
             grid-gap: 10px;
-            .session-1 { background-color: #8bfdba5e; color : #fff; }
-            .session-2 { background-color: #edf5627d; color : #000; }
+            .session-1 { background-color: #8bfdba5e; color : #000; }
+            .session-2 { background-color: #f5f8b685; color : #000; }
+            .session-3 { background-color: #c0c0ff45; color : #000; }
+            .session-4 { background-color: #dcf9ff8c; color : #000; }
+            .session-5 { background-color: #ffdae5; color : #000; }
+            .session-6 { background-color: #edf5627d; color : #000; }
+            h3{
+                color:black;
+            }
+            h4{
+                color:#486c75;
+            }
+            .session-1:hover{opacity: 0.5;}
+            .session-2:hover, .session-3:hover, .session-4:hover, .session-5:hover, .session-6:hover{@extend .session-1:hover}
+            
+             
 
             
     }
