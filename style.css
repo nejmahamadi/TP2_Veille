@@ -761,6 +761,14 @@ body.page .main-navigation {
         grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
   }
+  .liste-cours .session-1 {
+    background-color: #8bfdba5e;
+    color: #fff;
+  }
+  .liste-cours .session-2 {
+    background-color: #edf5627d;
+    color: #000;
+  }
 }
 
 @media only screen and (min-width: 1379px) {

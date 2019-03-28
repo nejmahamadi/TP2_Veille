@@ -20,23 +20,27 @@
     h3,h4 { padding:5px;}
 
     @include media(mobile){
+
         grid-template-columns: repeat(2,1fr);
         grid-gap: 10px;
         font-size : 1.3em;
-
+        
     }
 
     @include media(tablet) {
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 10px;
             font-size : 1em;
-     
+            
     }
 
     @include media(desktop) {
             grid-template-columns: repeat(4, 1fr);
             grid-gap: 10px;
-   
+            .session-1 { background-color: #8bfdba5e; color : #fff; }
+            .session-2 { background-color: #edf5627d; color : #000; }
+
+            
     }
 
     @include media(wide) {
