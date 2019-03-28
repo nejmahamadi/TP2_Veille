@@ -51,8 +51,9 @@
             h4{
                 color:#486c75;
             }
-            .session-1:hover{opacity: 0.5;}
-            .session-2:hover, .session-3:hover, .session-4:hover, .session-5:hover, .session-6:hover{@extend .session-1:hover}
+            .session-1:hover{opacity: 0.;}
+            .session-2:hover, .session-3:hover, .session-4:hover, .session-5:hover, .session-6:hover{@extend .session-1:hover;}
+
             
              
 
