@@ -763,19 +763,19 @@ body.page .main-navigation {
     grid-gap: 10px;
   }
   .liste-cours .session-1 {
-    background-color: #8bfdba5e;
+    background-color: #8bfdba;
     color: #000;
   }
   .liste-cours .session-2 {
-    background-color: #f5f8b685;
+    background-color: #f5f8b6;
     color: #000;
   }
   .liste-cours .session-3 {
-    background-color: #c0c0ff45;
+    background-color: #c0c0ff;
     color: #000;
   }
   .liste-cours .session-4 {
-    background-color: #dcf9ff8c;
+    background-color: #dcf9ff;
     color: #000;
   }
   .liste-cours .session-5 {
@@ -783,7 +783,7 @@ body.page .main-navigation {
     color: #000;
   }
   .liste-cours .session-6 {
-    background-color: #edf5627d;
+    background-color: #eef562;
     color: #000;
   }
   .liste-cours h3 {
@@ -819,8 +819,8 @@ body.page .main-navigation {
 
 .entry .entry-content a {
   text-decoration: none;
-  font-size: 25px;
-  font-family: 'Montseterrat';
+  font-size: 24px;
+  font-family: 'Helvetica';
 }
 
 img:hover {
@@ -983,5 +983,4 @@ img:hover {
   -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
           animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
 }
-
 /*# sourceMappingURL=style.css.map */
