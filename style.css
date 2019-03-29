@@ -684,6 +684,9 @@ body.page .main-navigation {
   .site-header.featured-image .site-branding .site-description {
     font-size: 4vw;
   }
+  .site-header.featured-image .liste-cours > h1 {
+    color: white;
+  }
 }
 
 /*--------------------------------------------------------------
